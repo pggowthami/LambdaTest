@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LambdaTest Suite" parallel="classes" thread-count="2">
+
+    <!-- Define Parameters for Browser & OS -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="browserVersion" value="127.0"/>
+    <parameter name="url" value="https://www.lambdatest.com/selenium-playground/"/>
+    <parameter name="username" value="pggowthami.892"/>
+    <parameter name="accessKey" value="5ciZuDIZSy8Og3vxF27tm3xTbsUn17y9uk3I9FLyn1ic6SyfrS"/>
+
+    <test name="LambdaTest Execution">
+        <classes>
+            <class name="com.lambdatest.testng101.LambdaTestAutomation"/>
+        </classes>
+    </test>
+
+</suite>
